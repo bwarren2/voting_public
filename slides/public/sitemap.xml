@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://bwarren2.github.io/voting_2016/about/</loc>
+    <lastmod>2019-02-13T01:59:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bwarren2.github.io/voting_2016/slides-1.0/income/</loc>
+    <lastmod>2019-02-13T01:58:58-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bwarren2.github.io/voting_2016/slides-1.0/basic_maps/</loc>
+    <lastmod>2019-02-13T01:58:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bwarren2.github.io/voting_2016/slides-1.0/education_vs_race_vs_shift/</loc>
+    <lastmod>2019-02-13T01:56:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bwarren2.github.io/voting_2016/slides-1.0/colored-outliers/</loc>
+    <lastmod>2019-02-13T01:55:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bwarren2.github.io/voting_2016/slides-1.0/ohio/</loc>
+    <lastmod>2019-02-13T01:54:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bwarren2.github.io/voting_2016/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://bwarren2.github.io/voting_2016/slides-1.0/</loc>
+    <lastmod>2019-02-13T01:58:58-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://bwarren2.github.io/voting_2016/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://bwarren2.github.io/voting_2016/</loc>
+    <lastmod>2019-02-13T01:59:00-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://bwarren2.github.io/voting_2016/tags/v1.0/</loc>
+    <lastmod>2019-02-13T01:58:00-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

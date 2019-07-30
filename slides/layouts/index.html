@@ -1,0 +1,60 @@
+<article>
+  <header>
+    <!-- # comment this out for the home page. -->
+    <!--<h1 class="text-primary">{{ .Title }}</h1>-->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <style>
+    div.hero {
+      text-align: center;
+      margin-top: 40px;
+      margin-bottom: 10px;
+    }
+    div.main {
+      text-align: center;
+    }
+
+    div.in-footer{
+      margin-left: 1%;
+      margin-bottom: 10px;
+    }
+    div.masthead{
+      margin-top:30px;
+    }
+    div.spinner,img{
+      max-height:600px;
+    }
+    </style>
+  </header>
+  <main>
+    <div class="container">
+        <div class="row">
+          <div class="col-md-8 mx-auto " >
+            <div class="hero">
+              <h1>What actually happened in 2016?</h1>
+            </div>
+            <div class="main">
+              <p>
+                The 2016 Presidential election was momentous, but too many people disagree about what transpired.  If you misdiagnose the patient, you treat the wrong disease and they don't get better.  We need to know what happened so we can handle the future, and maybe change it.
+              </p>
+              <p>Some people primarily blame Bernie voters, some blame minority voters, some blame racist Trump voters, but they can't all be right at the same time; so what was it?</p>
+              <a href="/slides-1.0/income/">Let's ask "which voters made Trump beat Clinton?"</a>, and work up to this data cube.  (It'll be interactable later.)
+              <div class="spinner">
+                <img src="/spinner.gif" alt="">
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </main>
+  </article>
+  <footer class='footer fixed-bottom'>
+    <div class="in-footer">
+      {{ partial "footer.html" . }}
+    </div>
+  </footer>
+
+
+</div>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>V1.0 on Understanding the 2016 Presidential Election</title>
+    <link>https://bwarren2.github.io/voting_2016/tags/v1.0/</link>
+    <description>Recent content in V1.0 on Understanding the 2016 Presidential Election</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 13 Feb 2019 01:58:00 -0500</lastBuildDate>
+    
+	<atom:link href="https://bwarren2.github.io/voting_2016/tags/v1.0/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Basic Performance Analysis</title>
+      <link>https://bwarren2.github.io/voting_2016/slides-1.0/basic_maps/</link>
+      <pubDate>Wed, 13 Feb 2019 01:58:00 -0500</pubDate>
+      
+      <guid>https://bwarren2.github.io/voting_2016/slides-1.0/basic_maps/</guid>
+      <description>Where did Democrats have a large percentage of the vote?  Where did Republicans have a large percentage of the vote?  Where and how did the Democratic turnout change?  Where and how did the Republican turnout change?  Where was the net Republican shift?  Methods To understand what made 2016 different from 2012, we can just subtract.
+We can approximate the Trump effect as the difference between the 2016 Republicans Presidential vote percentage and the 2012 percentage to see where Trump outperformed Romney (and won while Romney lost).</description>
+    </item>
+    
+  </channel>
+</rss>

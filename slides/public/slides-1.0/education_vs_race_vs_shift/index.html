@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+		<title>
+				Education vs Race vs Republican Shift &middot; Understanding the 2016 Presidential Election
+		</title>
+	
+		
+  		<link rel="stylesheet" href="https://bwarren2.github.io/voting_2016/css/style.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700">
+	
+		
+		<link rel="icon" type="image/png" sizes="32x32" href="https://bwarren2.github.io/voting_2016/images/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="https://bwarren2.github.io/voting_2016/images/favicon-16x16.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="https://bwarren2.github.io/voting_2016/images/apple-touch-icon.png">
+	
+		
+		<link href="" rel="alternate" type="application/rss+xml" title="Understanding the 2016 Presidential Election" />
+	</head>
+	
+    <body>
+        		<nav class="nav">
+			<div class="nav-container">
+				<a href="https://bwarren2.github.io/voting_2016/">
+					<h2 class="nav-title">Understanding the 2016 Presidential Election</h2>
+				</a>
+				<ul>
+    <li><a href="https://bwarren2.github.io/voting_2016/about">About</a></li>
+    <li><a href="https://bwarren2.github.io/voting_2016/">Posts</a></li>
+</ul>
+			</div>
+		</nav>
+
+        
+
+<main>
+	<div class="post">
+		<div class="post-info">
+    <span>Written by</span>
+        Ben
+        <br>
+        <span>on&nbsp;</span><time datetime="2019-02-13 01:56:00 -0500 EST">February 13, 2019</time>
+</div>
+		<h1 class="post-title">Education vs Race vs Republican Shift</h1>
+<div class="post-line"></div>
+
+
+		
+
+		
+
+<h1 id="education">Education</h1>
+
+<div class='centered-plotly' style='width:600px; height:600px; margin:0 auto;'>
+    <iframe src="https://bwarren2.github.io/voting_2016/education_vs_shift.html" frameborder="0" style='width:600px; height:600px'></iframe>
+</div>
+
+
+<p>(These charts are interactive.  Mouseover to get values of nearby points, or click the legend to show/hide series.)</p>
+
+<p>We can start to investigate the drivers of 2012-&gt;2016 Republican voting shift by examining the characteristics of each county.  Here we see what fraction of a county has a high school degree or less vs the 2016 shift toward Trump.</p>
+
+<p>We can see <a href="https://bwarren2.github.io/voting_2016/slides-1.0/basic_maps/">on the map</a> that the low outliers are Utah and Idaho.  This makes sense; McMullin was a spoiler candidate for Republicans in those states and especially popular among Mormons, who disliked Trump.</p>
+
+<div class='centered-plotly' style='width:600px; height:600px; margin:0 auto;'>
+    <iframe src="https://bwarren2.github.io/voting_2016/education_vs_shift_wo_id_ut.html" frameborder="0" style='width:600px; height:600px'></iframe>
+</div>
+
+
+<p>When we remove Idaho and Utah, the relationship becomes a bit clearer, but is still a drumstick instead of the line that would indicate a clean relationship.  What if we consider the oft-cited influence of race in the election?</p>
+
+<h1 id="racial-composition">Racial Composition</h1>
+
+<div class='centered-plotly' style='width:600px; height:600px; margin:0 auto;'>
+    <iframe src="https://bwarren2.github.io/voting_2016/race_vs_shift_wo_id_ut.html" frameborder="0" style='width:600px; height:600px'></iframe>
+</div>
+
+
+<h1 id="comparing-three-variables-at-once">Comparing Three Variables At Once</h1>
+
+<div class='centered-plotly' style='width:800px; height:700px; margin:0 auto;'>
+    <iframe src="https://bwarren2.github.io/voting_2016/race_vs_ed_vs_shift.html" frameborder="0" style='width:800px; height:700px'></iframe>
+</div>
+
+
+<h2 id="methods">Methods</h2>
+
+<p>This is a plotly 3D scatterplot of the two previous variables and the calculated Republican shift.  Putting them on the same plot at the same time makes it possible to easily see how the two variables are interacting.  Interestingly, color here is per-capita income.  Trump fared poorly in the higher-income counties.</p>
+
+<h2 id="results">Results</h2>
+
+<p>Some observations immediately jump off of the page:</p>
+
+<h3 id="a-plane-describes-most-of-the-points-outside-of-the-high-white-high-high-school-only-area">A plane describes most of the points outside of the high-white, high-high-school-only area</h3>
+
+<p>If you had to draw a flat surface to approximate most of the plot, it would have a positive slope in the education dimension (more high-school-only-educated people means more Republican shift) and very little slope in the % white dimension (having fewer minority people doesn&rsquo;t change things much).</p>
+
+<h3 id="something-weird-is-happening-in-the-high-white-high-high-school-only-area">Something weird is happening in the high-white, high-high-school-only area</h3>
+
+<p>Especially in the 93%+ white area, there are many points above the plane formed by the rest of the plot.  What exactly that area <em>is</em> is in the next few slides.</p>
+
+<h3 id="education-explains-noise-in-the-race-chart">Education explains noise in the race chart</h3>
+
+<ul>
+<li>The &ldquo;noise&rdquo; we saw when looking at &ldquo;% of county that is white&rdquo; vs shift below 93%ish white is actually explained in the education dimension.  If you pick a region below that threshold, like the 40-60% range, you can see that as &ldquo;% of county that is only high-school educated&rdquo; increases, we get more shift, and that shows up as merely a cloud of points when you only look at % white vs shift</li>
+</ul>
+
+<h2 id="next-steps">Next Steps</h2>
+
+<p>So where are the places in that anomalous area?</p>
+
+
+		
+	</div>
+
+	<div class="pagination">
+		<a href="https://bwarren2.github.io/voting_2016/slides-1.0/basic_maps/" class="left arrow">&#8592;</a>
+		<a href="https://bwarren2.github.io/voting_2016/slides-1.0/colored-outliers/" class="right arrow">&#8594;</a>
+
+		<a href="#" class="top">Top</a>
+	</div>
+</main>
+
+
+        		<footer>
+			<span>
+			&copy; <time datetime="2019-04-06 23:46:55.454725 -0400 EDT m=&#43;0.069691121">2019</time> Ben. Made with <a href='https://gohugo.io'>Hugo</a> using the <a href='https://github.com/EmielH/tale-hugo/'>Tale</a> theme.
+			</span>
+		</footer>
+
+    </body>
+</html>

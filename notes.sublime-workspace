@@ -1,0 +1,1562 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"INT",
+				"INTAKE_SURVEY_NK\tinstance"
+			],
+			[
+				"sched",
+				"scheduled_polls\tstatement"
+			],
+			[
+				"intake",
+				"intake_poll\tstatement"
+			],
+			[
+				"cove",
+				"conversion_option"
+			],
+			[
+				"assert",
+				"assert_equal\tmodule"
+			],
+			[
+				"revered",
+				"reversed_url\tstatement"
+			],
+			[
+				"pass",
+				"password\tstatement"
+			],
+			[
+				"pollx",
+				"pollxquestion"
+			],
+			[
+				"read",
+				"read_only"
+			],
+			[
+				"permission",
+				"permission_string"
+			],
+			[
+				"Base",
+				"BasePermission\tmodule"
+			],
+			[
+				"read_",
+				"read_only_fields"
+			],
+			[
+				"Quest",
+				"QuestionXChoiceSerializer"
+			],
+			[
+				"Questi",
+				"QuestionSerializer\tclass"
+			],
+			[
+				"seriali",
+				"serializer_class\tstatement"
+			],
+			[
+				"Choice",
+				"ChoiceSerializer\tclass"
+			],
+			[
+				"mode",
+				"ModelSerializer"
+			],
+			[
+				"add_course",
+				"add_course_group"
+			],
+			[
+				"String",
+				"StringIO\tclass"
+			],
+			[
+				"Program",
+				"ProgramSlot"
+			],
+			[
+				"academic",
+				"academicplan"
+			],
+			[
+				"suggested",
+				"suggested_plan"
+			],
+			[
+				"term_box",
+				"term_boxes\tstatement"
+			],
+			[
+				"mini",
+				"minimum_term_idx"
+			],
+			[
+				"used",
+				"used_credits"
+			],
+			[
+				"plan_course",
+				"plan_course_group"
+			],
+			[
+				"preexisting",
+				"preexisting_courses"
+			],
+			[
+				"credits_",
+				"credits_or_default"
+			],
+			[
+				"ignorin",
+				"ignoring_reqs"
+			],
+			[
+				"Sugg",
+				"SuggestedPlan\tclass"
+			],
+			[
+				"sugg",
+				"suggested_plan\tstatement"
+			],
+			[
+				"pla",
+				"planned_course"
+			],
+			[
+				"place",
+				"placement_term_idx\tparam"
+			],
+			[
+				"default",
+				"defaultdict\tclass"
+			],
+			[
+				"W",
+				"WAITLISTED\tstatement"
+			],
+			[
+				"cur",
+				"cursor_processor"
+			],
+			[
+				"chunk_",
+				"chunk_table_name"
+			],
+			[
+				"usa",
+				"usable_programs"
+			],
+			[
+				"int",
+				"IntegerField"
+			],
+			[
+				"API",
+				"APIView\tmodule"
+			],
+			[
+				"from",
+				"from_assignment\tstatement"
+			],
+			[
+				"progra",
+				"program_definition"
+			],
+			[
+				"program",
+				"program_definition_id"
+			],
+			[
+				"course",
+				"coursegroupcourses"
+			],
+			[
+				"planned",
+				"planned_courses\tstatement"
+			],
+			[
+				"Tra",
+				"TrackAssignmentModelName"
+			],
+			[
+				"slotted",
+				"slotted_programs"
+			],
+			[
+				"Boo",
+				"BooleanField"
+			],
+			[
+				"Seri",
+				"SerializerMethodField"
+			],
+			[
+				"progam",
+				"programslot_set"
+			],
+			[
+				"active_",
+				"active_slot_class\tstatement"
+			],
+			[
+				"serializer",
+				"serializer_class"
+			],
+			[
+				"Se",
+				"SerializerMethodField"
+			],
+			[
+				"None",
+				"None\tkeyword"
+			],
+			[
+				"post",
+				"postset\tstatement"
+			],
+			[
+				"Valida",
+				"ValidationError\tmodule"
+			],
+			[
+				"minimum_",
+				"minimum_term_idx\tfunction"
+			],
+			[
+				"us",
+				"used_terms\tstatement"
+			],
+			[
+				"course_ele",
+				"course_element_cd"
+			],
+			[
+				"cou",
+				"course"
+			],
+			[
+				"coreq",
+				"coreq_queue\tstatement"
+			],
+			[
+				"list",
+				"list_to_place\tparam"
+			],
+			[
+				"lists",
+				"lists_to_place\tstatement"
+			],
+			[
+				"avail",
+				"available_credits"
+			],
+			[
+				"current",
+				"current_term_idx"
+			],
+			[
+				"credits",
+				"credits_or_default"
+			],
+			[
+				"curre",
+				"current_term_idx\tstatement"
+			],
+			[
+				"locked",
+				"locked_planned_courses\tstatement"
+			],
+			[
+				"_",
+				"_"
+			],
+			[
+				"transa",
+				"transaction"
+			],
+			[
+				"Not",
+				"NotImplementedError\tclass"
+			],
+			[
+				"total",
+				"total_ordering\tfunction"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Anaconda Python Builder",
+					""
+				],
+				[
+					"Packages/Makefile/Make.sublime-build",
+					""
+				],
+				[
+					"Packages/Makefile/Make.sublime-build",
+					"Clean"
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"pyhton",
+				"Set Syntax: Python"
+			],
+			[
+				"ali",
+				"AlignTab"
+			],
+			[
+				"reint",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"align",
+				"AlignTab"
+			],
+			[
+				"format",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"blam",
+				"Git Blame"
+			],
+			[
+				"bla",
+				"Git Blame"
+			],
+			[
+				"sort",
+				"Sort Lines"
+			],
+			[
+				"python",
+				"Set Syntax: Python"
+			],
+			[
+				"blame",
+				"Git Blame Show All"
+			],
+			[
+				"markd",
+				"Set Syntax: Markdown"
+			],
+			[
+				"forma",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"json",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"build",
+				"Build With: Python"
+			],
+			[
+				"sql",
+				"Set Syntax: SQL"
+			],
+			[
+				"mark",
+				"Set Syntax: Markdown"
+			],
+			[
+				"balme",
+				"Git Blame"
+			],
+			[
+				"destr",
+				"Origami: Destroy Current Pane"
+			],
+			[
+				"destro",
+				"Origami: Destroy Pane Above"
+			],
+			[
+				"create",
+				"Origami: Create Pane with File Below"
+			],
+			[
+				"bash",
+				"Set Syntax: Bourne Again Shell (bash)"
+			],
+			[
+				"sq",
+				"Set Syntax: SQL"
+			],
+			[
+				"al",
+				"AlignTab"
+			],
+			[
+				"syn sq",
+				"Set Syntax: SQL"
+			],
+			[
+				"unfol",
+				"Code Folding: Unfold All"
+			],
+			[
+				"des",
+				"Origami: Destroy Current Pane"
+			],
+			[
+				"destroy",
+				"Origami: Destroy Current Pane"
+			],
+			[
+				"ori create",
+				"Origami: Create Pane Above"
+			],
+			[
+				"syn pyt",
+				"Set Syntax: Python"
+			],
+			[
+				"dest",
+				"Origami: Destroy Current Pane"
+			],
+			[
+				"or create ",
+				"Origami: Create Pane Above"
+			],
+			[
+				"pretty",
+				"Pretty JSON: Format and Sort JSON"
+			],
+			[
+				"de",
+				"Origami: Destroy Current Pane"
+			],
+			[
+				"alifn",
+				"Origami: Clone File to Pane Above"
+			],
+			[
+				"prett",
+				"Pretty JSON: Format and Sort JSON"
+			],
+			[
+				"alig",
+				"AlignTab"
+			],
+			[
+				"gher",
+				"Set Syntax: Gherkin"
+			],
+			[
+				"syn",
+				"Set Syntax: YAML"
+			],
+			[
+				"aligb",
+				"AlignTab"
+			],
+			[
+				"aliogn",
+				"Preferences: AlignTab Context Menu"
+			],
+			[
+				"syn ghe",
+				"Set Syntax: Gherkin"
+			],
+			[
+				"set python",
+				"Set Syntax: Python"
+			],
+			[
+				"aling",
+				"AlignTab"
+			],
+			[
+				"pyth",
+				"Set Syntax: Python"
+			],
+			[
+				"ori dest b",
+				"Origami: Destroy Pane Below"
+			],
+			[
+				"origam create boe",
+				"Origami: Create Pane Below"
+			],
+			[
+				"fold ",
+				"Code Folding: Unfold All"
+			],
+			[
+				"ori right",
+				"Origami: Create Pane on the Right"
+			],
+			[
+				"valid",
+				"Pretty JSON: Validate"
+			],
+			[
+				"reformat",
+				"Pretty JSON: Format and Sort JSON"
+			],
+			[
+				"pretti",
+				"Pretty JSON: Validate"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"algin",
+				"AlignTab"
+			],
+			[
+				"alo",
+				"AlignTab: Live Preview Mode"
+			],
+			[
+				"ori crate",
+				"Origami: Create Pane Below"
+			],
+			[
+				"alifb",
+				"Origami: Clone File to Pane Below"
+			],
+			[
+				"pyt",
+				"Set Syntax: Python"
+			],
+			[
+				"alignm",
+				"AlignTab: Exit Table Mode"
+			],
+			[
+				"alin",
+				"AlignTab"
+			],
+			[
+				"a",
+				"AlignTab"
+			],
+			[
+				"alg",
+				"AlignTab"
+			],
+			[
+				"focus belo",
+				"Origami: Focus on Pane Below"
+			],
+			[
+				"above",
+				"Origami: Focus on Pane Above"
+			],
+			[
+				"below",
+				"Origami: Focus on Pane Below"
+			],
+			[
+				"focus above",
+				"Origami: Focus on Pane Above"
+			],
+			[
+				"ori sw",
+				"Origami: Focus on Pane Below"
+			],
+			[
+				"ori below",
+				"Origami: Create Pane Below"
+			],
+			[
+				"buil",
+				"Build With: Python"
+			],
+			[
+				"aliog",
+				"AlignTab: Exit Table Mode"
+			],
+			[
+				"\\",
+				"Pretty JSON: JSON query with ./jq"
+			],
+			[
+				"orig right",
+				"Origami: Create Pane on the Right"
+			],
+			[
+				"syntax py",
+				"Set Syntax: Python"
+			],
+			[
+				"destrro",
+				"Origami: Destroy Current Pane"
+			],
+			[
+				"orig below",
+				"Origami: Focus on Pane Below"
+			],
+			[
+				"djan",
+				"Set Syntax: HTML (Django)"
+			],
+			[
+				"Pyt",
+				"Set Syntax: Python"
+			],
+			[
+				"create below",
+				"Origami: Create Pane Below"
+			],
+			[
+				"json pret",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"pretty json",
+				"Pretty JSON: Validate"
+			],
+			[
+				"valida",
+				"Pretty JSON: Validate"
+			],
+			[
+				"valda",
+				"Pretty JSON: Validate"
+			],
+			[
+				"destroy right",
+				"Origami: Destroy Pane on the Right"
+			],
+			[
+				"create right",
+				"Origami: Create Pane on the Right"
+			],
+			[
+				"markdo",
+				"Set Syntax: Markdown"
+			],
+			[
+				"gist",
+				"Gist: Create Private Gist"
+			],
+			[
+				"snipp",
+				"Snippet: __magic__"
+			],
+			[
+				"pretty ref",
+				"Pretty JSON: Format and Sort JSON"
+			],
+			[
+				"prety",
+				"Pretty JSON: Validate"
+			],
+			[
+				"spaces",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"disable",
+				"Anaconda: Disable linting on this file"
+			],
+			[
+				"destry",
+				"Origami: Destroy Current Pane"
+			],
+			[
+				"create pane",
+				"Origami: Create Pane on the Right"
+			],
+			[
+				"origami right",
+				"Origami: Create Pane on the Right"
+			],
+			[
+				"anaconda",
+				"Anaconda: Next lint error"
+			],
+			[
+				"suble",
+				"SublimeLinter: Toggle Highlights"
+			],
+			[
+				"syntax gh",
+				"Set Syntax: Gherkin"
+			],
+			[
+				"gherkin",
+				"Gherkin/Cucumber: Format"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"lint",
+				"SublimeLinter: Show All Errors"
+			],
+			[
+				"lin",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"list pack",
+				"Package Control: List Packages"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Install Package Control"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 162.0,
+		"history":
+		[
+			"sublime.log_commands(True)",
+			"sublime.log_input(True)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/bwarren/Projects/backend-e2e/cypress/integration/shared_workspace/add_course.js",
+		"/Users/bwarren/Projects/backend/student-platform/poll/admin.py",
+		"/Users/bwarren/Projects/backend/student-platform/eab/configs/models.py",
+		"/Users/bwarren/Projects/backend/student-platform/poll/models.py",
+		"/Users/bwarren/Projects/backend/student-platform/saml2_v2/apps.py",
+		"/Users/bwarren/Projects/backend/student-platform/poll/signals.py",
+		"/Users/bwarren/Projects/backend/student-platform/eab/djutil/features/terrain/http.py",
+		"/Users/bwarren/Projects/backend/docs/misc/half_point_time.rst",
+		"/Users/bwarren/Projects/backend/student-platform/poll/apps.py",
+		"/Users/bwarren/Projects/backend/student-platform/eab/configs/forms.py",
+		"/Users/bwarren/Projects/backend/student-platform/eab/tenant/models.py",
+		"/Users/bwarren/Projects/backend/abcs.py",
+		"/Users/bwarren/Projects/backend/student-platform/poll/features/check_intake_poll_integrity.feature",
+		"/Users/bwarren/Projects/backend/student-platform/eab/configs/admin.py",
+		"/Users/bwarren/Projects/backend/student-platform/eab/djutil/admin.py",
+		"/Users/bwarren/Projects/backend/student-platform/eab/tenant/services.py",
+		"/Users/bwarren/Projects/backend/setup.cfg",
+		"/Users/bwarren/Projects/backend/student-platform/academicplan/services.py",
+		"/Users/bwarren/Projects/backend/requirements/base.txt",
+		"/Users/bwarren/Projects/backend/requirements/test.txt",
+		"/Users/bwarren/Projects/backend/bin/verify_commit",
+		"/Users/bwarren/Projects/backend/student-platform/eab/pyutil/tests/flake8_docstring.py",
+		"/Users/bwarren/Projects/backend/bin/foo.sh",
+		"/Users/bwarren/Projects/backend/student-platform/academicplan/admin.py",
+		"/Users/bwarren/Projects/backend/student-platform/academicplan/signals.py",
+		"/Users/bwarren/Projects/backend/student-platform/eab/djutil/features/terrain/db.py",
+		"/Users/bwarren/Projects/backend/student-platform/path_cms/features/misc2/item_admin_steps.py",
+		"/Users/bwarren/Projects/backend/student-platform/ssccampus/features/appointment_detail.feature",
+		"/Users/bwarren/Projects/backend/student-platform/core/middleware.py",
+		"/Users/bwarren/Projects/backend/student-platform/settings/base.py",
+		"/Users/bwarren/Projects/backend/student-platform/eab/djutil/services/shared_storage.py",
+		"/Users/bwarren/Projects/backend/student-platform/core/admin.py",
+		"/Users/bwarren/Projects/backend/student-platform/eab/dataloader/services.py",
+		"/Users/bwarren/Projects/backend/student-platform/eab/configs/services.py",
+		"/Users/bwarren/Projects/backend/student-platform/cat/apps.py",
+		"/Users/bwarren/Projects/backend/student-platform/academicplan/features/autoload/advanced_reqs.feature",
+		"/Users/bwarren/Projects/backend/student-platform/settings/local.py",
+		"/Users/bwarren/Projects/backend/student-platform/pollref/models.py",
+		"/Users/bwarren/Projects/backend/student-platform/reg/features/section/suggested_term.feature",
+		"/Users/bwarren/Projects/backend/student-platform/reg/features/rio/rio_test_form.feature",
+		"/Users/bwarren/Projects/backend/student-platform/poll/urls.py",
+		"/Users/bwarren/Projects/backend/student-platform/poll/apiviews.py",
+		"/Users/bwarren/Projects/backend/.gitlab-ci.yml",
+		"/Users/bwarren/Desktop/foo.html",
+		"/Users/bwarren/Projects/backend/student-platform/cat/validators.py",
+		"/Users/bwarren/Projects/backend/student-platform/eab/configs/signals.py",
+		"/Users/bwarren/Projects/backend/student-platform/poll/constants.py",
+		"/Users/bwarren/Projects/backend/student-platform/poll/features/search_service_metrics.feature",
+		"/Users/bwarren/Projects/backend/student-platform/poll/features/minimal-rest/scheduled_polls.feature",
+		"/Users/bwarren/Projects/backend/student-platform/core/terrain.py",
+		"/Users/bwarren/Projects/backend/student-platform/ssccampusref/features/delete_old_records.feature",
+		"/Users/bwarren/Projects/backend/student-platform/path_cms/features/misc1/event_admin.feature",
+		"/Users/bwarren/Projects/backend/student-platform/poll/features/minimal-rest/poll.feature",
+		"/Users/bwarren/Desktop/foo.py",
+		"/Users/bwarren/Projects/backend/student-platform/poll/tests/tests.py",
+		"/Users/bwarren/Projects/backend/student-platform/poll/services.py",
+		"/Users/bwarren/Projects/backend/student-platform/allcc/tests/tests.py",
+		"/Users/bwarren/Projects/backend/student-platform/poll/tests.py",
+		"/Users/bwarren/Projects/backend/student-platform/academicplan/features/terrain.py",
+		"/Users/bwarren/Projects/backend/student-platform/academicplan/features/smart_catalog/stats.feature",
+		"/Users/bwarren/Projects/backend/docker/sentry/bootstrap.py",
+		"/Users/bwarren/Projects/backend/student-platform/eab/formularef/features/admin_check.feature",
+		"/Users/bwarren/Projects/backend/student-platform/eab/formula/admin.py",
+		"/Users/bwarren/Projects/backend/student-platform/eab/formula/services.py",
+		"/Users/bwarren/Projects/backend/student-platform/eab/pyutil/safeeval.py",
+		"/Users/bwarren/Projects/backend/student-platform/eab/tenant/features/command_task.feature",
+		"/Users/bwarren/Projects/backend/student-platform/path_cms/features/misc2/member_access.feature",
+		"/Users/bwarren/Projects/backend/student-platform/core/features/misc1/account_api_permissions.feature",
+		"/Users/bwarren/Projects/backend/student-platform/core/features/misc1/advisor_account_creation.feature",
+		"/Users/bwarren/Projects/backend/student-platform/eab/djutil/features/terrain/base.py",
+		"/Users/bwarren/Projects/backend/student-platform/academicplan/features/ct/ct_permission.feature",
+		"/Users/bwarren/Projects/backend/student-platform/academicplan/features/suggested1/diff_from_resolutions.feature",
+		"/Users/bwarren/Projects/backend/student-platform/academicplan/features/misc2/intake_survey.feature",
+		"/Users/bwarren/Projects/backend/student-platform/academicplan/features/specializations/load_student_term_data_api2.feature",
+		"/Users/bwarren/Projects/backend/student-platform/core/features/misc2/login.feature",
+		"/Users/bwarren/Projects/backend/student-platform/core/features/misc2/login_steps.py",
+		"/Users/bwarren/Projects/backend/student-platform/cat/features/misc3/validate_sections.feature",
+		"/Users/bwarren/Projects/backend/student-platform/eab/tenant/migrations/0041_initial_20190612.py",
+		"/Users/bwarren/Projects/backend/student-platform/academicplan/migrations/0073_auto_20190410_1518.py",
+		"/Users/bwarren/Projects/backend/student-platform/academicplan/features/specializations/load_student_term_data_api.feature",
+		"/Users/bwarren/Projects/backend/student-platform/academicplan/features/ct/program_slot.feature",
+		"/Users/bwarren/Projects/backend/student-platform/academicplan/features/misc2/sync_planned_courses_and_terms.feature",
+		"/Users/bwarren/Projects/backend/student-platform/cat/features/misc1/load_courseoffered.feature",
+		"/Users/bwarren/Projects/backend/student-platform/eab/formula/features/admin_check.feature",
+		"/Users/bwarren/Projects/backend/student-platform/cat/constants.py",
+		"/Users/bwarren/Projects/backend/student-platform/academicplan/features/smart_catalog/course_search.feature",
+		"/Users/bwarren/Projects/backend/student-platform/eab/configs/features/feature_toggle_steps.py",
+		"/Users/bwarren/Projects/backend/student-platform/core/features/misc2/member_clear_cache.feature",
+		"/Users/bwarren/Projects/backend/student-platform/event/features/misc2/email_notification_forced_opt_in_toggle.feature",
+		"/Users/bwarren/Projects/backend/student-platform/academicplan/features/misc1/degree_req_feature_toggle.feature",
+		"/Users/bwarren/Projects/backend/student-platform/academicplan/constants.py",
+		"/Users/bwarren/Projects/backend/student-platform/academicplan/apps.py",
+		"/Users/bwarren/Projects/backend/student-platform/eab/configs/signals_postmigration.py",
+		"/Users/bwarren/Projects/backend/student-platform/eab/coreuser/services.py",
+		"/Users/bwarren/Projects/backend/student-platform/eab/configs/features/test_intake_validation.feature",
+		"/Users/bwarren/Projects/backend/student-platform/core/features/misc1/config_steps.py",
+		"/Users/bwarren/Projects/backend/student-platform/eab/configs/features/steps.py",
+		"/Users/bwarren/Projects/backend/student-platform/eab/djutil/utils/__init__.py",
+		"/Users/bwarren/Projects/backend/student-platform/core/models.py",
+		"/Users/bwarren/Projects/backend/student-platform/poll/validators.py",
+		"/Users/bwarren/Projects/backend/student-platform/study/apps.py",
+		"/Users/bwarren/Projects/backend/student-platform/eab/tenant/features/auth_field_defaults.feature",
+		"/Users/bwarren/Projects/backend/student-platform/eab/coreuser/features/update_usergroups.feature",
+		"/Users/bwarren/Projects/backend/student-platform/path_cms/features/misc2/update_usergroups.feature",
+		"/Users/bwarren/Projects/backend/student-platform/core/apps.py",
+		"/Users/bwarren/Projects/backend/student-platform/study/features/study_buddies.feature",
+		"/Users/bwarren/Projects/backend/student-platform/core/api.py",
+		"/Users/bwarren/Projects/backend/student-platform/poll/features/answer_conversion.feature",
+		"/Users/bwarren/Projects/backend/student-platform/poll/features/poll_conversion_options.feature",
+		"/Users/bwarren/Projects/backend/student-platform/poll/features/polls_results_old_api.feature",
+		"/Users/bwarren/Desktop/old.txt",
+		"/Users/bwarren/Projects/backend/docs/contributing/api_reqs.rst",
+		"/Users/bwarren/Projects/backend/student-platform/notification/apiviews.py",
+		"/Users/bwarren/Projects/backend/student-platform/notification/features/inbox_messages.feature",
+		"/Users/bwarren/Projects/backend/student-platform/cat/apiviews.py",
+		"/Users/bwarren/Projects/backend/student-platform/output.txt",
+		"/Users/bwarren/Desktop/new.txt",
+		"/Users/bwarren/Projects/backend/student-platform/core/serializers.py",
+		"/Users/bwarren/Projects/backend/student-platform/notification/models.py",
+		"/Users/bwarren/Projects/backend/student-platform/poll/features/polls_first_term_old_api.feature",
+		"/Users/bwarren/Projects/backend/student-platform/poll/features/polls_get_old_api.feature",
+		"/Users/bwarren/Projects/backend/student-platform/poll/features/polls_questions.feature",
+		"/Users/bwarren/Projects/backend/student-platform/academicplan/apiviews.py",
+		"/Users/bwarren/Projects/backend/student-platform/settings/local_settings.py",
+		"/Users/bwarren/Projects/backend/student-platform/eab/tenant/features/tenant_steps.py",
+		"/Users/bwarren/Projects/backend/student-platform/eab/configsref/models.py",
+		"/Users/bwarren/Projects/backend/student-platform/academicplan/features/specializations/update_specialization.feature",
+		"/Users/bwarren/Projects/backend/.git/MERGE_MSG"
+	],
+	"find":
+	{
+		"height": 52.0
+	},
+	"find_in_files":
+	{
+		"height": 150.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 52.0
+	},
+	"input":
+	{
+		"height": 58.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 396.0
+	},
+	"output.SublimeLinter Messages":
+	{
+		"height": 108.0
+	},
+	"output.doc":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 290.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "notes.sublime-project",
+	"replace":
+	{
+		"height": 122.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"dev_",
+				"student-platform/core/management/commands/dev_init.py"
+			],
+			[
+				"gitla",
+				".gitlab-ci.yml"
+			],
+			[
+				"config admin",
+				"student-platform/eab/configs/admin.py"
+			],
+			[
+				"poll admin",
+				"student-platform/poll/admin.py"
+			],
+			[
+				"poll apps",
+				"student-platform/poll/apps.py"
+			],
+			[
+				"poll models",
+				"student-platform/poll/models.py"
+			],
+			[
+				"setup",
+				"setup.cfg"
+			],
+			[
+				"http",
+				"student-platform/eab/djutil/features/terrain/http.py"
+			],
+			[
+				"htp",
+				"docs/misc/half_point_time.rst"
+			],
+			[
+				"aca services",
+				"student-platform/academicplan/services.py"
+			],
+			[
+				"test.",
+				"requirements/test.txt"
+			],
+			[
+				"requir",
+				"requirements/base.txt"
+			],
+			[
+				"veri",
+				"bin/verify_commit"
+			],
+			[
+				"eab configs admin",
+				"student-platform/eab/configs/admin.py"
+			],
+			[
+				"poll signa",
+				"student-platform/poll/signals.py"
+			],
+			[
+				"signal",
+				"student-platform/academicplan/signals.py"
+			],
+			[
+				"base",
+				"student-platform/settings/base.py"
+			],
+			[
+				"db.p",
+				"student-platform/eab/djutil/features/terrain/db.py"
+			],
+			[
+				"check_in",
+				"student-platform/poll/features/check_intake_poll_integrity.feature"
+			],
+			[
+				"eab config forms",
+				"student-platform/eab/configs/forms.py"
+			],
+			[
+				"eab djutil services",
+				"student-platform/eab/djutil/services/shared_storage.py"
+			],
+			[
+				"cat apps",
+				"student-platform/cat/apps.py"
+			],
+			[
+				"coreadmin",
+				"student-platform/core/admin.py"
+			],
+			[
+				"admin",
+				"student-platform/academicplan/admin.py"
+			],
+			[
+				"poll signals",
+				"student-platform/poll/signals.py"
+			],
+			[
+				"djutiladmin",
+				"student-platform/eab/djutil/admin.py"
+			],
+			[
+				"settings",
+				"student-platform/settings/local.py"
+			],
+			[
+				"gitlab",
+				".gitlab-ci.yml"
+			],
+			[
+				"eabdjutiladmin",
+				"student-platform/eab/djutil/admin.py"
+			],
+			[
+				"base.p",
+				"student-platform/settings/base.py"
+			],
+			[
+				"db.",
+				"student-platform/eab/djutil/features/terrain/db.py"
+			],
+			[
+				"misc1eventad",
+				"student-platform/path_cms/features/misc1/event_admin.feature"
+			],
+			[
+				"minimal rest sche",
+				"student-platform/poll/features/minimal-rest/scheduled_polls.feature"
+			],
+			[
+				"minimal rest poll",
+				"student-platform/poll/features/minimal-rest/poll.feature"
+			],
+			[
+				"db",
+				"student-platform/eab/djutil/features/terrain/db.py"
+			],
+			[
+				"db.py",
+				"student-platform/eab/djutil/features/terrain/db.py"
+			],
+			[
+				"poll services",
+				"student-platform/poll/services.py"
+			],
+			[
+				"pollsignals",
+				"student-platform/poll/signals.py"
+			],
+			[
+				"allcctests",
+				"student-platform/allcc/tests/tests.py"
+			],
+			[
+				"poll urls",
+				"student-platform/poll/urls.py"
+			],
+			[
+				"dbpy",
+				"student-platform/eab/djutil/features/terrain/db.py"
+			],
+			[
+				"formualadmin",
+				"student-platform/eab/formula/admin.py"
+			],
+			[
+				"formula admin",
+				"student-platform/eab/formula/admin.py"
+			],
+			[
+				"allcc",
+				"student-platform/allcc/tests/tests.py"
+			],
+			[
+				"account",
+				"student-platform/core/features/misc1/account_api_permissions.feature"
+			],
+			[
+				"coreuser service",
+				"student-platform/eab/coreuser/services.py"
+			],
+			[
+				"configssteps",
+				"student-platform/eab/configs/features/steps.py"
+			],
+			[
+				"configs",
+				"student-platform/core/features/misc1/config_steps.py"
+			],
+			[
+				"poll servi",
+				"student-platform/poll/services.py"
+			],
+			[
+				"account api p",
+				"student-platform/core/features/misc1/account_api_permissions.feature"
+			],
+			[
+				"core apps",
+				"student-platform/core/apps.py"
+			],
+			[
+				"update_user",
+				"student-platform/path_cms/features/misc2/update_usergroups.feature"
+			],
+			[
+				"intake_",
+				"student-platform/academicplan/features/misc2/intake_survey.feature"
+			],
+			[
+				"poll apivi",
+				"student-platform/poll/apiviews.py"
+			],
+			[
+				"inboe",
+				"student-platform/notification/features/inbox_messages.feature"
+			],
+			[
+				"notifi apivi",
+				"student-platform/notification/apiviews.py"
+			],
+			[
+				"notification apivi",
+				"student-platform/notification/apiviews.py"
+			],
+			[
+				"poll conv",
+				"student-platform/poll/features/poll_conversion_options.feature"
+			],
+			[
+				"answer con",
+				"student-platform/poll/features/answer_conversion.feature"
+			],
+			[
+				"polls first t",
+				"student-platform/poll/features/polls_first_term_old_api.feature"
+			],
+			[
+				"http.",
+				"student-platform/eab/djutil/features/terrain/http.py"
+			],
+			[
+				"polls get ol",
+				"student-platform/poll/features/polls_get_old_api.feature"
+			],
+			[
+				"poll results ol",
+				"student-platform/poll/features/polls_results_old_api.feature"
+			],
+			[
+				"api rst",
+				"docs/contributing/api_reqs.rst"
+			],
+			[
+				"notifica apivi",
+				"student-platform/notification/apiviews.py"
+			],
+			[
+				"aca apivi",
+				"student-platform/academicplan/apiviews.py"
+			],
+			[
+				"intake",
+				"student-platform/academicplan/features/misc2/intake_survey.feature"
+			],
+			[
+				"local",
+				"student-platform/settings/local_settings.py"
+			],
+			[
+				"gitl",
+				".gitlab-ci.yml"
+			],
+			[
+				"eab tenant db_",
+				"student-platform/eab/tenant/db_permissions.py"
+			],
+			[
+				"reset",
+				".utils/reset-db.sql"
+			],
+			[
+				"dev",
+				"bin/dev_init"
+			],
+			[
+				"dev_init.p",
+				"student-platform/core/management/commands/dev_init.py"
+			],
+			[
+				"dev_init",
+				"bin/dev_init"
+			],
+			[
+				"poll features answer_conv",
+				"student-platform/poll/features/answer_conversion.feature"
+			],
+			[
+				"pyth",
+				"student-platform/eab/pyutil/threadcache.py"
+			],
+			[
+				"docker",
+				"docker-compose.yml"
+			],
+			[
+				"local_",
+				"student-platform/settings/local_settings.py"
+			],
+			[
+				"test_all_",
+				"student-platform/allcc/features/test_all_admin.py"
+			],
+			[
+				"diff",
+				"student-platform/academicplan/features/suggested1/diff_from_resolutions.feature"
+			],
+			[
+				"aca serializer",
+				"student-platform/academicplan/serializers.py"
+			],
+			[
+				"programpicker serial",
+				"student-platform/programpicker/serializers.py"
+			],
+			[
+				".e",
+				".env.example"
+			],
+			[
+				"academicplan builders",
+				"student-platform/academicplan/builders.py"
+			],
+			[
+				"reg apivi",
+				"student-platform/reg/apiviews.py"
+			],
+			[
+				"reg apivie",
+				"student-platform/reg/apiviews.py"
+			],
+			[
+				"reg forms",
+				"student-platform/reg/forms.py"
+			],
+			[
+				"test_har",
+				"student-platform/settings/test_harvest.py"
+			],
+			[
+				"test_",
+				"student-platform/settings/test_harvest.py"
+			],
+			[
+				"base.",
+				"student-platform/settings/base.py"
+			],
+			[
+				".env",
+				".env"
+			],
+			[
+				".ex",
+				".env.example"
+			],
+			[
+				"requirements",
+				"requirements/base.txt"
+			],
+			[
+				"notification admin base",
+				"student-platform/notification/admin/base.py"
+			],
+			[
+				"notific admin",
+				"student-platform/notificationref/admin.py"
+			],
+			[
+				"core auth",
+				"student-platform/core/auth.py"
+			],
+			[
+				"user.py",
+				"student-platform/core/management/commands/user.py"
+			],
+			[
+				"core middle",
+				"student-platform/core/middleware.py"
+			],
+			[
+				"user.",
+				"student-platform/core/management/commands/user.py"
+			],
+			[
+				"poll models ",
+				"student-platform/poll/models.py"
+			],
+			[
+				"pollref",
+				"student-platform/pollref/models.py"
+			],
+			[
+				"poll model",
+				"student-platform/poll/models.py"
+			],
+			[
+				"requirem",
+				"requirements/base.txt"
+			],
+			[
+				"requ",
+				"serverless/requirements.txt"
+			],
+			[
+				"steps.",
+				"student-platform/holds/features/steps.py"
+			],
+			[
+				"favorite ",
+				"student-platform/programpicker/features/program_favorites.feature"
+			],
+			[
+				"programpicker urls",
+				"student-platform/programpicker/urls.py"
+			],
+			[
+				"eab rest_framework serializers",
+				"student-platform/eab/rest_framework/serializers.py"
+			],
+			[
+				"programra",
+				"student-platform/programpicker/program_ranker.py"
+			],
+			[
+				"djutil serializr",
+				"student-platform/eab/djutil/serializers.py"
+			],
+			[
+				"poll seriali",
+				"student-platform/poll/serializers.py"
+			],
+			[
+				"programpicker serializer",
+				"student-platform/programpicker/serializers.py"
+			],
+			[
+				"program apiviews",
+				"student-platform/programpicker/apiviews.py"
+			],
+			[
+				"djutil seriali",
+				"student-platform/eab/djutil/serializers.py"
+			],
+			[
+				"item api",
+				"student-platform/item/apiviews.py"
+			],
+			[
+				"reg forms ",
+				"student-platform/cat/features/misc1/formula_course_nk_regex_steps.py"
+			],
+			[
+				"study apivi",
+				"student-platform/study/apiviews.py"
+			],
+			[
+				"djutil serializer",
+				"student-platform/eab/djutil/serializers.py"
+			],
+			[
+				"runserver",
+				"bin/runserver"
+			],
+			[
+				"reg urls",
+				"student-platform/reg/urls.py"
+			],
+			[
+				"aca urls",
+				"student-platform/academicplan/urls.py"
+			],
+			[
+				"0023_initial_20190612",
+				"student-platform/eab/coreuser/migrations/0023_initial_20190612.py"
+			],
+			[
+				"poll apiviews",
+				"student-platform/poll/apiviews.py"
+			],
+			[
+				"poll serial",
+				"student-platform/poll/serializers.py"
+			],
+			[
+				"item apivi",
+				"student-platform/item/apiviews.py"
+			],
+			[
+				"item serial",
+				"student-platform/item/serializers.py"
+			],
+			[
+				"pollview",
+				"student-platform/poll/apiviews.py"
+			],
+			[
+				"StudentTopicAPIView",
+				"student-platform/programpicker/apiviews.py"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 338.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

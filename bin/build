@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+cd slides && hugo -d ../docs && cd -

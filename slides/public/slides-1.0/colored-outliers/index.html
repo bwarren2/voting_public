@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+		<title>
+				Where are the outliers? &middot; Understanding the 2016 Presidential Election
+		</title>
+	
+		
+  		<link rel="stylesheet" href="https://bwarren2.github.io/voting_2016/css/style.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700">
+	
+		
+		<link rel="icon" type="image/png" sizes="32x32" href="https://bwarren2.github.io/voting_2016/images/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="https://bwarren2.github.io/voting_2016/images/favicon-16x16.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="https://bwarren2.github.io/voting_2016/images/apple-touch-icon.png">
+	
+		
+		<link href="" rel="alternate" type="application/rss+xml" title="Understanding the 2016 Presidential Election" />
+	</head>
+	
+    <body>
+        		<nav class="nav">
+			<div class="nav-container">
+				<a href="https://bwarren2.github.io/voting_2016/">
+					<h2 class="nav-title">Understanding the 2016 Presidential Election</h2>
+				</a>
+				<ul>
+    <li><a href="https://bwarren2.github.io/voting_2016/about">About</a></li>
+    <li><a href="https://bwarren2.github.io/voting_2016/">Posts</a></li>
+</ul>
+			</div>
+		</nav>
+
+        
+
+<main>
+	<div class="post">
+		<div class="post-info">
+    <span>Written by</span>
+        Ben
+        <br>
+        <span>on&nbsp;</span><time datetime="2019-02-13 01:55:00 -0500 EST">February 13, 2019</time>
+</div>
+		<h1 class="post-title">Where are the outliers?</h1>
+<div class="post-line"></div>
+
+
+		
+
+		<p>If we glance at the race/education/Trump shift chart, it looks like there is a linear relationship in education except for (roughly) these red points:</p>
+
+<div class='centered-plotly' style='width:900px; height:800px; margin:0 auto;'>
+    <iframe src="https://bwarren2.github.io/voting_2016/simple-3d-scatter-colored.html" frameborder="0" style='width:900px; height:800px'></iframe>
+</div>
+
+
+<p>(Remember that you can rotate 3D plots by clicking and dragging.  I just eyeballed this slice, it was not scientific.  It should be close enough for the broad-strokes analysis we&rsquo;ll do though.)</p>
+
+<p>We can filter out all of the gray points and think of them as explained by the education effect.  If we only plot these red points, where are they?</p>
+
+<div class='centered-plotly' style='width:800px; height:500px; margin:0 auto;'>
+    <iframe src="https://bwarren2.github.io/voting_2016/outlier_all.html" frameborder="0" style='width:800px; height:500px'></iframe>
+</div>
+
+
+<p>If we remove a bunch of states to zoom in on the midwest, we get this:</p>
+
+<div class='centered-plotly' style='width:1000px; height:500px; margin:0 auto;'>
+    <iframe src="https://bwarren2.github.io/voting_2016/outlier_zoom.html" frameborder="0" style='width:1000px; height:500px'></iframe>
+</div>
+
+
+<p>(Remember, you can toggle some of the buckets of data as invisible by clicking them in the legend.)</p>
+
+<p>Some things to note:</p>
+
+<ul>
+<li>If you only show the counties with a shift of 15% or more, there are a ton in Ohio and Iowa, a few in Missouri and some elsewhere.</li>
+<li>There is basically a continuous blotch from the southern part of Illinois to the border with Canada</li>
+<li>Almost all of Iowa is in this &ldquo;unexplained by education&rdquo; set</li>
+</ul>
+
+<p>Recall from our basic analysis, the figure below is how things changed across all counties.</p>
+
+<iframe src='https://bwarren2.github.io/voting_2016/rep_shift.html' style='width:100%; height:355px'></iframe>
+
+
+<p>We are looking at many fewer counties in this new &ldquo;outlier&rdquo; group.  We already have a likely candidate (HS-educated people) to explain the change elsewhere, in all the places present in the chart below not present in the chart above.  Progress!</p>
+
+
+		
+	</div>
+
+	<div class="pagination">
+		<a href="https://bwarren2.github.io/voting_2016/slides-1.0/education_vs_race_vs_shift/" class="left arrow">&#8592;</a>
+		<a href="https://bwarren2.github.io/voting_2016/slides-1.0/ohio/" class="right arrow">&#8594;</a>
+
+		<a href="#" class="top">Top</a>
+	</div>
+</main>
+
+
+        		<footer>
+			<span>
+			&copy; <time datetime="2019-04-06 23:46:55.456487 -0400 EDT m=&#43;0.071453448">2019</time> Ben. Made with <a href='https://gohugo.io'>Hugo</a> using the <a href='https://github.com/EmielH/tale-hugo/'>Tale</a> theme.
+			</span>
+		</footer>
+
+    </body>
+</html>

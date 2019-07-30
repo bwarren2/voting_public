@@ -1,0 +1,1 @@
+cd slides && hugo -d ../docs && cd ..

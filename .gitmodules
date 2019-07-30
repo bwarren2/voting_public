@@ -1,0 +1,3 @@
+[submodule "slides/themes/inkblotty"]
+	path = slides/themes/inkblotty
+	url = https://github.com/bwarren2/inkblotty

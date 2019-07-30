@@ -1,0 +1,63 @@
+title = "Understanding the 2016 Election"
+canonifyurls = true
+baseURL = "https://gifted-roentgen-302f88.netlify.com/"
+author = "Ben"
+theme = "inkblotty"
+paginate = 10
+
+languageCode = "en-us"
+DefaultContentLanguage = "en-us"
+hasCJKLanguage = "true"
+
+enableInlineShortcodes = true
+footnoteReturnLinkContents = "^"
+
+disqusShortname = "voting-2016"
+googleAnalytics = "UA-124735498-2"
+
+summaryLength=150
+
+[permalinks]
+  post = "/:slug/"
+  page = "/:slug/"
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  archive = "archives"
+
+[[menu.main]]
+  identifier = "posts"
+  name = "All Posts"
+  url = "https://gifted-roentgen-302f88.netlify.com/slides-1.0/"
+  weight = 10
+
+[[menu.main]]
+  identifier = "about"
+  name = "About"
+  url = "https://gifted-roentgen-302f88.netlify.com/about/"
+  weight = 10
+
+[[menu.main]]
+  identifier = "feedback"
+  name = "Give Feedback"
+  url = "https://gifted-roentgen-302f88.netlify.com/slides-1.0/feedback/"
+  weight = 10
+
+
+[Params]
+  readmore = true
+  css = ["css/custom.css"]
+
+[outputs]                          # c.f. https://gohugo.io/templates/output-formats/
+  home = ["HTML", "RSS"]
+  page =  ["HTML"]
+  section =  ["HTML", "RSS"]
+  taxonomyTerm =  ["HTML", "RSS"]
+  taxonomy =  ["HTML", "RSS"]
+
+[sitemap]
+  filename = "sitemap.xml"  # c.f. https://gohugo.io/templates/sitemap-template/#configure-sitemap-xml
+
+[Author]
+    name = "Ben"
