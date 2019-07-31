@@ -40,7 +40,7 @@ summaryLength=150
 
 [[menu.main]]
   identifier = "feedback"
-  name = "Give Feedback"
+  name = "Feedback & A Toy"
   url = "https://whathappened.in/2016/feedback/"
   weight = 10
 
