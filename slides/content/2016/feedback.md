@@ -39,4 +39,4 @@ Want to see how different specific states look in our original data cube?  Try t
 
 {{<localplotly "many.html" 800 800>}}
 
-I find the Michigan + Ohio line most striking personally, but some states like Tennessee can be surprising.
+I find the Michigan + Ohio line most striking personally, but some states like Tennessee can be surprising.  Click a series to show/hide it, doubleclick to hide everything else.
