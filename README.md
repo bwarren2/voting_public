@@ -5,6 +5,10 @@
 Lots of people have lots of feels about the 2016 US Presidential election, but most of the graphics I have seen are lacking.  This is my attempt to do better.
 
 
+## The Data
+
+The data and codebook are in `VizReading_countyVotingCodebook.doxc` and `voteMortalityDemographics.csv`.
+
 
 ## The notebooks
 
