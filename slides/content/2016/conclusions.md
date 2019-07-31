@@ -8,7 +8,7 @@ draft: false
 
 We started with a question: which demographic got Donald Trump elected?  From the analysis I have done, it appears straightforward: **disengaged voters, primarily noncollege, primarily white people who voted for a Democrat in the past (Obama), but didn't show up to vote the same way for Hillary (or voted Trump).  Often, these people reside in places hit hard by declining American manufacturing, where noncollege high-wage jobs (like mining) are disappearing.**
 
-It is imperative for Democrats to figure out what wins those voters back.  While it was trendy after the election to compare small loss margins to other small factors, like marginal changes in minority voting or likely voter suppression numbers, the vanished cohort of Obama voters dwarfs those other estimates across many battleground states.  If a tiny factor (like marginal minority voting) is theoretically important, something 5x as big is much more important.
+It is imperative for Democrats to figure out what wins those voters back.  While it was trendy after the election to compare small loss margins to other small factors, like marginal changes in minority voting or likely voter suppression numbers, the vanished cohort of Obama voters dwarfs those other estimates across many battleground states.  If a tiny factor (like marginal minority voting) is theoretically important, something 5-15x as big is much more important.
 
 # Why does this matter?
 
