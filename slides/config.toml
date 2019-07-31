@@ -1,6 +1,6 @@
 title = "Understanding the 2016 Election"
 canonifyurls = true
-baseURL = "https://gifted-roentgen-302f88.netlify.com/"
+baseURL = "https://whathappened.in/"
 author = "Ben"
 theme = "inkblotty"
 paginate = 10
@@ -29,19 +29,19 @@ summaryLength=150
 [[menu.main]]
   identifier = "posts"
   name = "All Posts"
-  url = "https://gifted-roentgen-302f88.netlify.com/slides-1.0/"
+  url = "https://whathappened.in/2016/"
   weight = 10
 
 [[menu.main]]
   identifier = "about"
   name = "About"
-  url = "https://gifted-roentgen-302f88.netlify.com/about/"
+  url = "https://whathappened.in/about/"
   weight = 10
 
 [[menu.main]]
   identifier = "feedback"
   name = "Give Feedback"
-  url = "https://gifted-roentgen-302f88.netlify.com/slides-1.0/feedback/"
+  url = "https://whathappened.in/2016/feedback/"
   weight = 10
 
 

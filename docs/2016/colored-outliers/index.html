@@ -3,7 +3,7 @@
     <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>About - Understanding the 2016 Election</title>
+    <title>Where are the outliers? - Understanding the 2016 Election</title>
 
     <style type="text/css">
         img.wp-smiley,
@@ -44,12 +44,12 @@ ga('send', 'pageview');
         <nav role="navigation" aria-label="Primary Navigation">
 
             <ul class="menu">
-                <li class="menu-item  current-menu-item current_page_item "><a class="menu__link" href="https://whathappened.in/about/">ABOUT</a></li>
+                <li class="menu-item "><a class="menu__link" href="https://whathappened.in/about/">ABOUT</a></li>
                 <li class="menu-item "><a class="menu__link" href="https://whathappened.in/2016/">ALL POSTS</a></li>
                 <li class="menu-item "><a class="menu__link" href="https://whathappened.in/2016/feedback/">GIVE FEEDBACK</a></li>
             </ul>
             <select onChange="location.href=value;">
-                <option value="https://whathappened.in/about/" class="menu-item menu-item-type-custom menu-item-object-custom"  selected="selected" >ABOUT</option>
+                <option value="https://whathappened.in/about/" class="menu-item menu-item-type-custom menu-item-object-custom" >ABOUT</option>
                 <option value="https://whathappened.in/2016/" class="menu-item menu-item-type-custom menu-item-object-custom" >ALL POSTS</option>
                 <option value="https://whathappened.in/2016/feedback/" class="menu-item menu-item-type-custom menu-item-object-custom" >GIVE FEEDBACK</option>
             </select>
@@ -69,10 +69,10 @@ ga('send', 'pageview');
 <main role="main">
     <article role="article" class="post type-post format-standard hentry">
         <header class="post-header">
-            <h1>About</h1>
+            <h1>Where are the outliers?</h1>
             <div class="post-details">
                 <a rel="bookmark">
-                    <time datetime="2019-02-13T213:159:06">2019-02-13</time>
+                    <time datetime="2019-02-13T213:155:06">2019-02-13</time>
                 </a>
 				
 <span style="float: right;">
@@ -80,11 +80,11 @@ ga('send', 'pageview');
     
     <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2"></script>
     
-    <div class="fb-share-button" data-href="https://whathappened.in/about/" data-layout="button_count" data-size="small">
-        <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fwhathappened.in%2fabout%2f" class="fb-xfbml-parse-ignore">Share</a>
+    <div class="fb-share-button" data-href="https://whathappened.in/2016/colored-outliers/" data-layout="button_count" data-size="small">
+        <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fwhathappened.in%2f2016%2fcolored-outliers%2f" class="fb-xfbml-parse-ignore">Share</a>
     </div>
     &nbsp;
-    <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-text="About" data-url="https://whathappened.in/about/" data-show-count="false">Tweet</a>
+    <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-text="Where are the outliers?" data-url="https://whathappened.in/2016/colored-outliers/" data-show-count="false">Tweet</a>
     <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     &nbsp;
     
@@ -96,38 +96,50 @@ ga('send', 'pageview');
         <div class="post-content">
             
 
-<h1 id="tl-dr">TL;DR</h1>
+<p>If we glance at the race/education/Trump shift chart, it looks like there is a linear relationship in education except for (roughly) these red points:</p>
 
-<p>This is about the 2016 Presidential Election.  <a href="https://whathappened.in/2016/income/">Start here.</a></p>
+<div class='centered-plotly' style='width:800px; height:800px; margin: auto;'>
+    <iframe src="https://whathappened.in/simple-3d-scatter-colored.html" frameborder="0" style='width:800px; height:800px'></iframe>
+</div>
 
-<h1 id="why-is-this-here">Why is this here?</h1>
 
-<p>Everyone I know has had feelings about What Happened in 2016, but most of them have different answers and few have much evidence.  Some claim Berniebros torpedoed Hillary&rsquo;s campaign, some blame low turnout among minority voters, some some blame the candidate and some blame the zeitgeist.</p>
+<p>(Remember that you can rotate 3D plots by clicking and dragging.  I just eyeballed this slice, it was not scientific.  It should be close enough for the broad-strokes analysis we&rsquo;ll do though.)</p>
 
-<p>But we can do better than that.  We can, and should, produce analysis that is clear, accessible, and informative, so we can know our past and learn for the future.  This isn&rsquo;t a partisan activity: it is in everyone&rsquo;s interest to have a reality-based worldview.  This site is some of my work on these questions.  Hopefully, the charts here will be the start of good discussions rather than the end of bad ones.</p>
+<p>We can filter out all of the gray points and think of them as explained by the education effect.  If we only plot these red points, where are they?</p>
 
-<h1 id="sources">Sources</h1>
+<div class='centered-plotly' style='width:800px; height:500px; margin: auto;'>
+    <iframe src="https://whathappened.in/outlier_all.html" frameborder="0" style='width:800px; height:500px'></iframe>
+</div>
 
-<h2 id="voting-data">Voting Data</h2>
 
-<p>From <a href="https://github.com/tonmcg/US_County_Level_Election_Results_08-16">here</a>.  Author cites Townhall and The Guardian, and spot checks look right.</p>
+<p>If we remove a bunch of states to zoom in on the midwest, we get this:</p>
 
-<h2 id="education-data">Education Data</h2>
+<div class='centered-plotly' style='width:800px; height:500px; margin: auto;'>
+    <iframe src="https://whathappened.in/outlier_zoom.html" frameborder="0" style='width:800px; height:500px'></iframe>
+</div>
 
-<p>From <a href="https://www.ers.usda.gov/data-products/county-level-data-sets/download-data/">here</a>, specifically <a href="https://www.ers.usda.gov/webdocs/DataFiles/48747/Education.xls?v=0">this file </a>.  I deleted the top 4 rows of metadata to get a rectangular table of data and headers.</p>
 
-<h2 id="unemployment-data">Unemployment Data</h2>
+<p>(Remember, you can toggle some of the buckets of data as invisible by clicking them in the legend.)</p>
 
-<p>From <a href="https://www.ers.usda.gov/data-products/county-level-data-sets/download-data/">here</a>, specifically <a href="https://www.ers.usda.gov/webdocs/DataFiles/48747/Unemployment.xls?v=0">this file </a>.  I deleted the top 7 rows of metadata to get a rectangular table of data and headers.</p>
+<p>Some things to note:</p>
 
-<h2 id="demographic-data">Demographic Data</h2>
+<ul>
+<li>If you only show the counties with a shift of 15% or more, there are a ton in Ohio and Iowa, a few in Missouri and some elsewhere.</li>
+<li>There is basically a continuous blotch from the southern part of Illinois to the border with Canada</li>
+<li>Almost all of Iowa is in this &ldquo;unexplained by education&rdquo; set</li>
+</ul>
 
-<p>From <a href="https://factfinder.census.gov/faces/tableservices/jsf/pages/productview.xhtml?pid=ACS_15_5YR_B02001&amp;prodType=table">here</a>.  Its the ACS 5 year in 2015.</p>
+<p>Recall from our basic analysis, the figure below is how things changed across all counties.</p>
 
-<h2 id="drug-overdose-data">Drug Overdose Data</h2>
+<p><img src="https://whathappened.in/maps/republican_shift.png" alt="R Shift" /></p>
 
-<p>Pick the right years <a href="https://wonder.cdc.gov/controller/datarequest/D140;jsessionid=702D7E5F7E17BB06B046423F927498FF">here</a>.
-Use <a href="https://www.cdc.gov/drugoverdose/data/statedeaths.html">these codes</a>.</p>
+<p>We are looking at many fewer counties in this new &ldquo;outlier&rdquo; group.  We already have a likely candidate (HS-educated people) to explain the change elsewhere, in all the places present in the chart below not present in the chart above.  Progress!</p>
+
+<h2 id="next-steps">Next Steps</h2>
+
+<p>But which voters drove change in those areas?  It can vary state-by-state, so let&rsquo;s dig in.  We&rsquo;ll compare county voting changes to attributes of those counties, and build a narrative around the overall dynamic there.</p>
+
+<h1 id="what-happened-in-ohio-hahahugoshortcode-s3-hbhb"><a href="https://whathappened.in/2016/ohio/">What happened in Ohio?</a></h1>
 
         </div>
 

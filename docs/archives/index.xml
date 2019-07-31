@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Archives on Understanding the 2016 Election</title>
-    <link>https://gifted-roentgen-302f88.netlify.com/archives/</link>
+    <link>https://whathappened.in/archives/</link>
     <description>Recent content in Archives on Understanding the 2016 Election</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://gifted-roentgen-302f88.netlify.com/archives/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://whathappened.in/archives/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
