@@ -32,6 +32,8 @@ Dems _should not_ merely support the people that feel best to them specifically.
 
 I created this project in my spare time, with no budget, because I was deeply dissatisfied with the quality of analysis being passed around about the 2016 election.  I wanted to get the best understanding I could from the data, figure out which explanations for the election didn't make any sense, and make that clear + accessible to anyone with a computer.  To make it easier for other people to do the same, the code for this site is open source in [this github repo.](https://github.com/bwarren2/voting_public).
 
-My secret hope is that, if I can do this with no resources outside work hours, I can motivate the professionals to step up their game.  Fox, CNN, and the New York Times have more budget, staff, and resources than I do, and I want to see them produce analysis more like this.
+My secret hope is that if I can do this with no resources outside work hours, I can motivate the professionals to step up their game.  Fox, CNN, and the New York Times have more budget, staff, and resources than I do, and I want to see them produce analysis more like this, but better.  Liberal or conservative, we don't have the time for shallow, basic attentionmongering when there are real problems that merit deep understanding.
 
-# [Please give me feedback so I can make this better]({{< ref "feedback" >}})
+If you are from those institutions and want to do this kind of thing better, you can put your email in the free-text part of my feedback poll and I'll teach you ;) .
+
+# [Please give me feedback, and play with this toy]({{< ref "feedback" >}})
