@@ -62,4 +62,4 @@ In general, the increased Republican turnout was spread across the entire state,
 
 <img src="/PA/r_votes_waterfall.png" width="600" height="600" />
 
-## [Conclusion]({{< ref "feedback" >}})
+## [Conclusions]({{< ref "conclusions" >}})
