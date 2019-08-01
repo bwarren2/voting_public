@@ -28,7 +28,7 @@ When we remove Idaho and Utah, the relationship becomes a bit clearer, but is st
 
 {{<localplotly "race_vs_ed_vs_shift.html" 750 700>}}
 
-Here, color is average income in that county.  Red is more, gray is less.  This is interactive; click and drag to rotate, mouseover for detail.
+**This is interactive; click and drag to rotate, mouseover for detail.** Here, color is average income in that county.  Red is more, gray is less.
 
 ## Methods
 
