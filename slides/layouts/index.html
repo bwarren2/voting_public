@@ -3,6 +3,8 @@
     <!-- # comment this out for the home page. -->
     <!--<h1 class="text-primary">{{ .Title }}</h1>-->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"/>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <style>
     div.hero {
@@ -24,6 +26,13 @@
     div.spinner,img{
       max-height:600px;
     }
+    .small{
+      max-width: 300px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+    }
     </style>
   </header>
   <main>
@@ -40,8 +49,14 @@
               <p>Some people primarily blame Bernie voters, some blame minority voters, some blame racist Trump voters, but they can't all be right at the same time; so what was it?</p>
               <a href="/2016/income/">Let's ask "which voters made Trump beat Clinton?"</a>, and work up to this data cube.  (It'll be interactable later.)
               <div class="spinner">
-                <img src="/spinner.gif" alt="">
+                <div><img class='small' src="/spinner/spin_1.png" alt=""></div>
+                <div><img class='small' src="/spinner/spin_2.png" alt=""></div>
+                <div><img class='small' src="/spinner/spin_3.png" alt=""></div>
+                <div><img class='small' src="/spinner/spin_4.png" alt=""></div>
+                <div><img class='small' src="/spinner/spin_5.png" alt=""></div>
+                <div><img class='small' src="/spinner/spin_6.png" alt=""></div>
               </div>
+
 
             </div>
 
@@ -58,3 +73,15 @@
 
 
 </div>
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+
+<script type="text/javascript">
+  $(document).ready(function(){
+    $('.spinner').slick({
+      autoplay: true,
+      dots: true
+    });
+  });
+</script>
