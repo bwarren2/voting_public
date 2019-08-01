@@ -30,6 +30,11 @@ Special thanks to my friends, family, and especially the test readers and collab
  * Charlie
  * Kit
  * Owen
+ * Brandon
+ * Abby
+ * Meghan
+ * Miguel
+ * Jared
  * and Ella
 
 
