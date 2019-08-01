@@ -3,7 +3,7 @@
     <!-- # comment this out for the home page. -->
     <!--<h1 class="text-primary">{{ .Title }}</h1>-->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-      <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"/>
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"/>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <style>
@@ -27,44 +27,66 @@
       max-height:600px;
     }
     .small{
-      max-width: 300px;
+      max-width: 400px;
       display: block;
       margin-left: auto;
       margin-right: auto;
       width: 50%;
     }
+    .row {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      width: 100%;
+    }
+
+    .column {
+      display: flex;
+      flex-direction: column;
+      flex-basis: 100%;
+      flex: 1;
+    }
     </style>
   </header>
   <main>
     <div class="container">
-        <div class="row">
-          <div class="col-md-8 mx-auto " >
-            <div class="hero">
-              <h1>What actually happened in 2016?</h1>
-            </div>
-            <div class="main">
-              <p>
-                The 2016 Presidential election was momentous, but too many people disagree about what transpired.  If you misdiagnose the patient, you treat the wrong disease and they don't get better.  We need to know what happened so we can handle the future, and maybe change it.
-              </p>
-              <p>Some people primarily blame Bernie voters, some blame minority voters, some blame racist Trump voters, but they can't all be right at the same time; so what was it?</p>
-              <p>
+      <div class="row">
+        <div class="col-md-8 mx-auto " >
+          <div class="hero">
+            <h1>What actually happened in 2016?</h1>
+          </div>
+          <div class="main">
+            <p>
+              The 2016 Presidential election was momentous, but too many people disagree about what transpired.  If you misdiagnose the patient, you treat the wrong disease and they don't get better.  We need to know what happened so we can handle the future, and maybe change it.
+            </p>
+            <p>Some people primarily blame Bernie voters, some blame minority voters, some blame racist Trump voters, but they can't all be right at the same time; so what was it?</p>
+            <p>
               <a href="/2016/income/">Let's ask "which voters made Trump beat Clinton?"</a>, and work up to this data cube.  </p>
               <p><strong>(It'll be interactable later.)</strong></p>
-              <div class="spinner">
-                <div><img class='small' src="/spinner/spin_1.png" alt=""></div>
-                <div><img class='small' src="/spinner/spin_2.png" alt=""></div>
-                <div><img class='small' src="/spinner/spin_3.png" alt=""></div>
-                <div><img class='small' src="/spinner/spin_4.png" alt=""></div>
-                <div><img class='small' src="/spinner/spin_5.png" alt=""></div>
-                <div><img class='small' src="/spinner/spin_6.png" alt=""></div>
-              </div>
-
-
             </div>
 
           </div>
         </div>
+        <div class="row">
+          <div class="col-md-6 mx-auto " >
+            <div class="spinner">
+              <div><img class='small' src="/spinner/spin_1.png" alt=""></div>
+              <div><img class='small' src="/spinner/spin_2.png" alt=""></div>
+              <div><img class='small' src="/spinner/spin_3.png" alt=""></div>
+              <div><img class='small' src="/spinner/spin_4.png" alt=""></div>
+              <div><img class='small' src="/spinner/spin_5.png" alt=""></div>
+              <div><img class='small' src="/spinner/spin_6.png" alt=""></div>
+            </div>
+
+          </div>
+          <div class="col-md-6 mx-auto " >
+            <div class="spinner">
+              <img class='small' src="/spinner.gif" alt="">
+            </div>
+          </div>
+        </div>
       </div>
+
     </main>
   </article>
   <footer class='footer fixed-bottom'>
@@ -80,10 +102,10 @@
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
 
 <script type="text/javascript">
-  $(document).ready(function(){
-    $('.spinner').slick({
-      autoplay: true,
-      dots: true
-    });
+$(document).ready(function(){
+  $('.spinner').slick({
+    autoplay: true,
+    dots: true
   });
+});
 </script>
