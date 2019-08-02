@@ -20,6 +20,7 @@ The next presidential election is coming, and we don't have much time to waste. 
 
 Special thanks to my friends, family, and especially the test readers and collaborators that have sustained this project for almost a year.  I would be lost without you.
 
+ * Mike
  * Yong
  * Pedro
  * Bianka
@@ -35,6 +36,7 @@ Special thanks to my friends, family, and especially the test readers and collab
  * Meghan
  * Miguel
  * Jared
+ * Christopher
  * and Ella
 
 
